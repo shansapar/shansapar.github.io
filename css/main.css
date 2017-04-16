@@ -1,0 +1,65 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.content .container {
+    margin: 10% auto;
+}
+
+.contact .container {}
+
+.social-links a{
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	color: #000;
+}
+
+.social-links a:hover,
+.social-links a:focus, a:hover, a:focus{
+	color: #D8C449;
+	transition: all 0.5s ease;
+	-webkit-transition:;
+	-moz-transition:;
+	-o-transition:;
+}
+
+.social-links{
+	color: #b1b1b1;
+	letter-spacing: 1em;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.body-text {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: .04em;
+    color: #b1b1b1;
+}
+
+.body-text span {
+    color: #000;
+}
